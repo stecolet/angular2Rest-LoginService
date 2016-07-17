@@ -21,7 +21,7 @@ System.register(['@angular/core'], function(exports_1, context_1) {
             Configuration = (function () {
                 function Configuration() {
                     this.Server = "http://localhost:8080";
-                    this.ApiUrl = "/colettaAssessment-0.0.1-SNAPSHOT";
+                    this.ApiUrl = "/colettaAssessment-0.0.1-SNAPSHOT/loginRest";
                     this.ServerWithApiUrl = this.Server + this.ApiUrl;
                 }
                 Configuration = __decorate([
